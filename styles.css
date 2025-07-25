@@ -1,0 +1,49 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body, html { font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+
+header {
+  background: #f8f3ed; color: #333;
+  text-align: center; padding: 2rem 1rem;
+}
+header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+header p { font-size: 1rem; }
+
+.hero {
+  background: url('https://picsum.photos/seed/chill/1600/600') center/cover no-repeat;
+  color: #fff; padding: 6rem 2rem; text-align: center;
+}
+.hero-content h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+.btn { background: #6d4c41; color: #fff; padding: 0.75rem 1.5rem; text-decoration: none;
+      border-radius: 5px; transition: background 0.3s; }
+.btn:hover { background: #5a3e32; }
+
+.ad-banner {
+  background: #ffe135; color: #111; padding: 2rem 1rem; text-align: center;
+}
+.btn-ad { background: #111; color: #ffe135; padding: 0.75rem 1.5rem;
+          text-decoration: none; border-radius: 5px; display: inline-block;
+          transition: background 0.3s; }
+.btn-ad:hover { background: #333; }
+
+section { padding: 3rem 1rem; text-align: center; }
+.about p { max-width: 800px; margin: 1rem auto; line-height: 1.6; }
+
+.stories { background: #f4f4f4; }
+.story-card {
+  background: white; padding: 1.5rem; margin: 1rem auto;
+  max-width: 600px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact form {
+  display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: auto;
+}
+.contact input, .contact textarea {
+  padding: 1rem; border: 1px solid #ccc; border-radius: 5px;
+}
+.contact button {
+  background: #6d4c41; color: white; border: none; padding: 1rem;
+  border-radius: 5px; cursor: pointer; transition: background 0.3s;
+}
+.contact button:hover { background: #5a3e32; }
+
+footer { background: #222; color: #ccc; padding: 2rem 1rem; text-align: center; }
